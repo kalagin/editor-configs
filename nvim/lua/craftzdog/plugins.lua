@@ -51,4 +51,5 @@ packer.startup(function(use)
   use {'akinsho/git-conflict.nvim', tag = "*", config = function()
     require('git-conflict').setup()
   end}
+  use { "ellisonleao/gruvbox.nvim" }
 end)
