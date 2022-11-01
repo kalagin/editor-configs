@@ -29,6 +29,13 @@ vim.opt.backspace = { 'start', 'eol', 'indent' }
 vim.opt.path:append { '**' } -- Finding files - Search down into subfolders
 vim.opt.wildignore:append { '*/node_modules/*' }
 
+-- Show special chars
+vim.opt.list = true
+vim.opt.listchars = 'tab:| ,lead:·,trail:·'
+
+-- Relative numbers
+vim.opt.relativenumber = true
+
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])
 vim.cmd([[let &t_Ce = "\e[4:0m"]])
@@ -41,3 +48,4 @@ vim.api.nvim_create_autocmd("InsertLeave", {
 
 -- Add asterisks in block comments
 vim.opt.formatoptions:append { 'r' }
+
