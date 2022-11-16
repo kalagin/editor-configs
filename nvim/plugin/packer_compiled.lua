@@ -155,6 +155,11 @@ _G.packer_plugins = {
     path = "/Users/ivan/.local/share/nvim/site/pack/packer/start/mini.comment",
     url = "https://github.com/echasnovski/mini.comment"
   },
+  ["mini.indentscope"] = {
+    loaded = true,
+    path = "/Users/ivan/.local/share/nvim/site/pack/packer/start/mini.indentscope",
+    url = "https://github.com/echasnovski/mini.indentscope"
+  },
   ["mini.surround"] = {
     loaded = true,
     path = "/Users/ivan/.local/share/nvim/site/pack/packer/start/mini.surround",

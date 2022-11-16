@@ -86,4 +86,5 @@ packer.startup(function(use)
 
   use { 'echasnovski/mini.comment', branch = 'stable' }
 
+  use 'f-person/git-blame.nvim'
 end)
